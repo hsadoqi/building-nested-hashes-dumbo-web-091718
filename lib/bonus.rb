@@ -21,9 +21,10 @@ def bonus
   }
 
   #code your solution here:
-
   
-
+  expect([:montague][:hero][:status])to_eq("dead")
+  expect([:capulet][:heroine][:status])to_eq("dead")
+  
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
   epic_tragedy
 end
